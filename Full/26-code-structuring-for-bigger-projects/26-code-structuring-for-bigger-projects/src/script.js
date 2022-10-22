@@ -1,17 +1,10 @@
-import Robot from './Robot.js'
-import FlyingRobot from './FlyingRobot.js'
+import './style.css'
+
+import Experience from './Experiences/Experience.js'
+
+const experience = new Experience(document.querySelector('canvas.webgl'))
 
 
-const wallE = new Robot('WallE', 0);
-const ultron = new FlyingRobot('Ultron', 2);
-const astroBoy = new FlyingRobot('Astro Boy', 2);
-
-wallE.sayHi()
-astroBoy.land()
-
-
-
-// import './style.css'
 
 // import * as THREE from 'three'
 // import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js'
@@ -219,3 +212,25 @@ astroBoy.land()
 // }
 
 // tick()
+
+
+
+
+
+
+
+
+
+
+
+
+// import Robot from './old/Robot.js'
+// import FlyingRobot from './old/FlyingRobot.js'
+
+
+// const wallE = new Robot('WallE', 0);
+// const ultron = new FlyingRobot('Ultron', 2);
+// const astroBoy = new FlyingRobot('Astro Boy', 2);
+
+// wallE.sayHi()
+// astroBoy.land()
