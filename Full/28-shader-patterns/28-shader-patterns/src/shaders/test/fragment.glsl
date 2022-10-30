@@ -84,10 +84,11 @@ void main()
     // float strength = step(0.2, max(barX, barY));
 
     // Pattern 20
-    // float barX = abs(vUv.y-0.5);
-    // float barY = abs(vUv.x-0.5);
+    float barX = abs(vUv.y-0.5);
+    float barY = abs(vUv.x-0.5);
 
-    // float strength = step(0.4, max(barX, barY));
+    float strength = step(0.5, max(barX, barY));
+    
 
     gl_FragColor = vec4(strength, strength, strength, 1.0);
 }

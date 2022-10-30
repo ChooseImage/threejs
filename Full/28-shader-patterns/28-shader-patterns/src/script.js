@@ -6,7 +6,7 @@ import testVertexShader from './shaders/test/vertex.glsl'
 import testFragmentShader from './shaders/test/fragment.glsl'
 
 /**
- * Base
+ * Bas
  */
 // Debug
 const gui = new dat.GUI()
